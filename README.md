@@ -6,7 +6,7 @@
 > It was organized from work connected to **Qiskit Hackathon Taiwan 2025 – Group 06**, focusing on **SQD vs. VQE benchmarking**, **configuration recovery**, **noise-aware bit-flip design**, and **adaptive epsilon experiments** for molecular energy estimation.
 >
 > **中文**  
-> 本儲存庫整理我在 **量子化學 SQD（Sample-based Quantum Diagonalization）** 方向的程式、notebooks、benchmark 資料、簡報與展示素材。  
+> 本儲存庫整理在 **量子化學 SQD（Sample-based Quantum Diagonalization）** 的程式、notebooks、benchmark 資料、簡報與展示素材。  
 > 內容來自 **Qiskit Hackathon Taiwan 2025 – Group 06** 相關研究，核心主題為 **SQD 與 VQE 的基準比較**、**configuration recovery**、**抗雜訊 bit-flip 設計**，以及 **自動 epsilon（ε）調整** 在分子能量估計上的應用。
 
 ---
