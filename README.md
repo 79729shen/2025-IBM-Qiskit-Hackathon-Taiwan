@@ -133,7 +133,7 @@ It is best understood as a **research workbench + hackathon archive + reproducib
 
 | Experiment | Reported result (EN) | 結果摘要（中文） |
 |---|---|---|
-| **H2O: SQD vs. VQE** | Final error: **VQE ≈ 0.000 Ha**, **SQD ≈ 0.004 Ha (~4 mHa)**. VQE is tighter/faster, while SQD shows controlled descent. | 最終誤差約為 **VQE ≈ 0.000 Ha**、**SQD ≈ 0.004 Ha（約 4 mHa）**；VQE 更快更緊，SQD 則呈現穩定下降。 |
+| **H2O: SQD vs. VQE** | Final error: **VQE ≈ 0.000 Ha**, **SQD ≈ 0.004 Ha (~4 mHa)**. VQE is tighter/faster, while SQD shows controlled descent. | 最終誤差約為 **VQE ≈ 0.000 Ha**、**SQD ≈ 0.004 Ha（約 4 mHa）**；VQE 更快更嚴密，SQD 則呈現穩定下降。 |
 | **CO molecular SQD** | Example reported setup: batch size = 5, samples per batch = 300, exact energy = **-112.88357 Ha**, SQD energy = **-112.88275 Ha**, absolute error = **0.00082 Ha**. | CO 範例設定為 batch size = 5、samples per batch = 300；exact energy = **-112.88357 Ha**、SQD energy = **-112.88275 Ha**、絕對誤差 = **0.00082 Ha**。 |
 | **LiH parameter sweep** | Lower batch size tended to improve speed; more samples per batch improved accuracy. Best tested absolute error reached **0.00013 Ha** under one setting. | LiH 參數掃描顯示：較小 batch size 傾向加快收斂；較多 samples per batch 有助提升精度。在測試設定中最佳誤差達 **0.00013 Ha**。 |
 | **CH2 benchmark on `ibm_brisbane`** | Using 100k shots: **sigmoid** improved absolute error by **46.53%**, **dynamic epsilon** by **14.69%**, and the **combo** by **50.61%** relative to the original setup. | 在 `ibm_brisbane` 100k shots 條件下：**sigmoid** 將誤差降低 **46.53%**，**dynamic epsilon** 降低 **14.69%**，**combo** 降低 **50.61%**。 |
