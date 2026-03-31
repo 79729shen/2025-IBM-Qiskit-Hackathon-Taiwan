@@ -1,10 +1,6 @@
 # Sample-based Quantum Diagonalization (SQD) for Quantum Chemistry  
 # 基於樣本量子對角化（SQD）的量子化學計算與分子模擬
 
-<p align="center">
-  <img src="./Screenshot%202025-08-13%20at%208.30.29%E2%80%AFPM.jpg" alt="SQD extensions overview" width="900"/>
-</p>
-
 > **English**  
 > This repository archives my code, notebooks, benchmark artifacts, slides, and demo materials related to **Sample-based Quantum Diagonalization (SQD)** for quantum chemistry.  
 > It was organized from work connected to **Qiskit Hackathon Taiwan 2025 – Group 06**, focusing on **SQD vs. VQE benchmarking**, **configuration recovery**, **noise-aware bit-flip design**, and **adaptive epsilon experiments** for molecular energy estimation.
